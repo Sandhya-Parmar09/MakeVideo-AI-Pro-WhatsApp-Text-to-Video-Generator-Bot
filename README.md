@@ -6,21 +6,7 @@
 
 Simply send a text description to our WhatsApp number, and the AI will process your request, generate a high-quality video, and send it back within minutes — all in a natural, conversational interface.
 
----
 
-## 🚀 Live Demo & Walkthrough
-
-You can test the live applications and watch a complete video walkthrough of the projects at the links below.
-
-### MakeVideo AI Pro
-* **Live Deployed App:** **[https://make-video-ai-pro.vercel.app](https://make-video-ai-pro.vercel.app)**
-* **Video Walkthrough:** **[https://drive.google.com/file/d/104IrRDsPsj8gaZqff4_e51OUp05FfBUh/view](https://drive.google.com/file/d/104IrRDsPsj8gaZqff4_e51OUp05FfBUh/view)**
-
-### MakeVideo AI
-* **Live Deployed App:** **[https://make-video-ai.vercel.app](https://make-video-ai.vercel.app)**
-* **Video Walkthrough:** **[https://drive.google.com/file/d/1oTs8tVeXIiZdzsVV8GQQrclj8kM3Rh2K/view](https://drive.google.com/file/d/1oTs8tVeXIiZdzsVV8GQQrclj8kM3Rh2K/view)**
-  
----
 
 ## ✨ Key Features
 
@@ -113,6 +99,7 @@ export const ConversationHistoryTable = pgTable("conversation_history", {
     - Minimax (primary video generation)
     - Replicate (secondary video generation)
     - ModelsLab (tertiary video generation)
+    - Kling Video AI 
 - **Messaging:** Twilio WhatsApp API
 - **Deployment:** Vercel
 
@@ -146,7 +133,7 @@ BASE_URL=your_base_url_for_webhook
 
 ```bash
 # Clone the repository
-git clone https://github.com/Shubhraj-Shubh/makevideo-ai-pro.git
+git clone https://github.com/Sandhya-Parmar09/MakeVideo-AI-Pro-WhatsApp-Text-to-Video-Generator-Bot.git
 cd makevideo-ai-pro
 
 # Install dependencies
@@ -231,21 +218,3 @@ A: The system tries multiple providers in sequence. If all fail, you'll receive 
 **Q: Can I use this in WhatsApp groups?**  
 A: Currently the bot only supports 1-on-1 conversations.
 
----
-
-## 🔗 Related Projects
-
-- [Previous MakeVideo AI Web Platform](https://github.com/Shubhraj-Shubh/MakeVideo-AI)
-
----
-
-## 👤 Credits
-
-Developed by Shubhraj Singh Dodiya  
-Built with Next.js, Twilio, Google Gemini, Minimax, Replicate, and ModelsLab
-
----
-
-## 📧 Contact
-
-For support or inquiries: shubhrajput19194@gmail.com

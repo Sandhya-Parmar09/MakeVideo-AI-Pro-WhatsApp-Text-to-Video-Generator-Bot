@@ -595,7 +595,7 @@ async function showHelpMenu(client, fromNumber) {
     "- /clear-chat - Delete only your chat history, keep your videos\n" +
     "- /privacy - View our privacy policy\n" +
     "- /help - Show this help menu\n\n" +
-    "Need more help? Contact support at +91 9753648274 or email at shubhrajput19194@gmail.com";
+    "Need more help? Contact support ";
   
   await sendTwilioMessage(client, fromNumber, helpMessage);
 }
