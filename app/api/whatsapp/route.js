@@ -138,7 +138,8 @@ const ai = new GoogleGenAI({
     responseMimeType: 'text/plain',
   };
   // const model = 'gemini-2.0-flash';
-  const model = 'gemma-3-27b-it';
+  // const model = 'gemma-3-27b-it';
+      const model = 'gemini-3.1-flash-lite';
   const contents = [
     {
       role: 'user',
